@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 });
 
 // Twitch Stream-Key und Server (ersetzen!)
-const twitchStreamKey = 'live_62882992_0RZTbV9GqdOSg8cYFIwZChoq1ZGMTR';
+const twitchStreamKey = '';
 const twitchServer = 'rtmp://live.twitch.tv/app/';
 
 let ffmpegProc3 = null; // Blackscreen Instance
